@@ -24,8 +24,8 @@ sass.compiler = require("node-sass");
 
 gulp.task('css', function(){
   return gulp.src(paths.scss)
-    .pipe(sass().on("error", sass.logError))
     .pipe(concatCSS("core.css"))
+    .pipe(sass().on("error", sass.logError))
     .pipe(autoprefixer({
       browsers: ["cover 99.5% in DK"], /*https://github.com/browserslist/browserslist*/
       cascade: false
