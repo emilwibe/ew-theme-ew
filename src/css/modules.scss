@@ -18,3 +18,12 @@
 .logo span{
   color:#aaa;
 }
+.nav.primary > ul{
+  display:flex;
+}
+.nav.primary li{
+  list-style-type:none;
+}
+.nav.primary a{
+    color:#f7f7f7;
+}
