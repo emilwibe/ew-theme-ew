@@ -9,7 +9,7 @@
   </head>
   <body>
     <header class="header primary">
-      <div class="wrapper lg">
+      <div class="wrapper lg2">
         <a href="/" class="logo">Emil Wibe</a>
       </div><!--/.wrapper.lg-->
     </header><!--/.header.primary-->
