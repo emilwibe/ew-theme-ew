@@ -10,6 +10,6 @@
   <body>
     <header class="header primary">
       <div class="wrapper lg2">
-        <a href="/" class="logo">Emil Wibe</a>
+        <a href="/" class="logo">EmilWibe <span>Web Design</span></a>
       </div><!--/.wrapper.lg-->
     </header><!--/.header.primary-->
