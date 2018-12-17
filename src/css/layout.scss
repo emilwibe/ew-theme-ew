@@ -1,6 +1,9 @@
 .wrapper{
   margin:0 auto;
-  width:96%;
+  width:90%;
+}
+.wrapper.fw{
+    width:100%;
 }
 .wrapper.lg2{
     max-width:1400px;
