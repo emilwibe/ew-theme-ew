@@ -13,7 +13,7 @@
   background-position:center;
   background-repeat:no-repeat;
   background-size:cover;
-  height:50vh;
+  height:calc(50vh - 60px);
   position:relative;
 }
 .hero.preload{
