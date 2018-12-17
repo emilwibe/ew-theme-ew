@@ -1,8 +1,16 @@
 .header.primary{
   background-color:#23232a;
   color:#fff;
-  display:flex;
-    justify-content:space-between;
   font-family:$font-sans;
+}
+.header.primary > .wrapper{
+  display:flex;
+    align-items:center;
+    justify-content:space-between;
   height:60px;
+}
+.logo{
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
 }

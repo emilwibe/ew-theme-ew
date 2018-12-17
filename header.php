@@ -9,5 +9,7 @@
   </head>
   <body>
     <header class="header primary">
-      <div>Emil Wibe</div>
+      <div class="wrapper lg">
+        <a href="/" class="logo">Emil Wibe</a>
+      </div><!--/.wrapper.lg-->
     </header><!--/.header.primary-->
