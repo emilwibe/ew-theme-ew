@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <div class="hero wrapper fw" style="background-image:url(<?php the_field('hero_image_index'); ?>)">
+  <div class="hero wrapper lg2" style="background-image:url(<?php the_field('hero_image_index'); ?>)">
       <div class="overlay">
 
       </div><!--/.overlay-->
