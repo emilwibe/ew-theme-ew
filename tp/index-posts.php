@@ -10,7 +10,7 @@ $theQuery = new WP_Query($args);
 <?php if($theQuery->have_posts()) : ?>
     
     <h2>Seneste posts</h2>
-    <div class="row col-33">
+    <div class="row lg-col-33 md-col-33 sm-col-100">
     <?php while($theQuery->have_posts()) : $theQuery->the_post(); ?>
 
         <div>
