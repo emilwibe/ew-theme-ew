@@ -18,8 +18,8 @@ $theQuery = new WP_Query($args);
             <article>
                 <a href="<?php echo get_the_permalink(); ?>">
                     <div class="thumbnail" style="background-image:url(<?php the_post_thumbnail_url(); ?>);"></div>
-                    <time><?php echo get_the_date( 'd-m-Y' ); ?></time>
                     <h3><?php the_title(); ?></h3>
+                    <?php the_excerpt(); ?>
                 </a>
                 </article>
             </div>
