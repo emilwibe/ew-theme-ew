@@ -18,6 +18,8 @@ $theQuery = new WP_Query($args);
             <article>
                 <a href="<?php echo get_the_permalink(); ?>">
                     <div class="thumbnail" style="background-image:url(<?php the_post_thumbnail_url(); ?>);"></div>
+
+                    <h3><?php the_title(); ?></h3>
                 </a>
                 </article>
             </div>
