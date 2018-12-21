@@ -9,7 +9,7 @@ $theQuery = new WP_Query($args);
 ?>
 <?php if($theQuery->have_posts()) : ?>
     
-    <h2>Seneste posts</h2>
+    <h2 class="index posts">Seneste posts</h2>
     <div class="row lg-col-25 md-col-33 sm-col-100">
     <?php while($theQuery->have_posts()) : $theQuery->the_post(); ?>
 
@@ -18,7 +18,7 @@ $theQuery = new WP_Query($args);
             <article>
                 <a href="<?php echo get_the_permalink(); ?>">
                     <div class="thumbnail" style="background-image:url(<?php the_post_thumbnail_url(); ?>);"></div>
-                    <time><?php echo get_the_date( 'D M j' ); ?></time>
+                    <time><?php echo get_the_date( 'd-m-Y' ); ?></time>
                     <h3><?php the_title(); ?></h3>
                 </a>
                 </article>
