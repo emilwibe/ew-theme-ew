@@ -20,6 +20,7 @@ $theQuery = new WP_Query($args);
                     <div class="thumbnail" style="background-image:url(<?php the_post_thumbnail_url(); ?>);"></div>
 
                     <h3><?php the_title(); ?></h3>
+                    <time><?php echo get_the_date( 'D M j' ); ?></time>
                 </a>
                 </article>
             </div>
