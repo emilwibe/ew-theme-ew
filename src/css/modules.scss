@@ -46,6 +46,14 @@
   top:0;
   width:100%;
 }
+article .thumbnail{
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:0;
+  overflow:hidden;
+  width:100%;
+}
 .thumbnail.title{
   bottom:5rem;
   color:#fff;
