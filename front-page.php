@@ -2,7 +2,7 @@
 
   <?php get_template_part('tp/image', 'featured'); ?>
   
-  <main>
+  <main class="wrapper lg">
     
     <?php get_template_part('tp/index', 'posts'); ?>
 
