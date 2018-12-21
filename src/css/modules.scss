@@ -47,8 +47,11 @@
   width:100%;
 }
 .thumbnail.title{
+  bottom:5rem;
   color:#fff;
+  font-family:$font-sans;
+  margin:0;
   position:absolute;
-  right:0;
+  right:5rem;
   text-transform:uppercase;
 }
