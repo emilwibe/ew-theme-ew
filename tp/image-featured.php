@@ -7,7 +7,15 @@
 
     <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php echo get_post_meta($thumbnail_id, '_wp_attachment_image_alt', true); ?>" class="hero preload" id="hero-preload">
 
-    <h2></h2>
+    <?php if(is_front_page()) : ?>
+
+    <h2 class="thumbnail title"><?php the_field('index_catchphrase'); ?></h2>
+
+    <?php else : ?>
+
+    <h1 class="thumbnail title"><?php the_title(); ?></h1>
+
+    <?php endif; ?>
 
   </div><!--/.hero.wrapper.fw-->
 
