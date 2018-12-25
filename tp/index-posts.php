@@ -8,6 +8,8 @@ $args = array(
 $theQuery = new WP_Query($args);
 ?>
 <?php if($theQuery->have_posts()) : ?>
+
+<div class="wrapper lg2">
     
     <h2 class="index posts">Seneste posts</h2>
     <div class="row lg-col-25 md-col-33 sm-col-100">
@@ -26,5 +28,8 @@ $theQuery = new WP_Query($args);
  
     <?php endwhile; ?>
     </div><!--/.row-->
+
+    <a href="<?php echo get_post_type_archive_link('post'); ?>">Flere -></a>
+</div><!--/.wrapper.lg2-->
     <?php wp_reset_postdata(); ?>
 <?php endif; ?>
