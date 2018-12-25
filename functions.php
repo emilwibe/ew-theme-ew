@@ -14,4 +14,17 @@
   register_nav_menus(array(
     'primary' => 'Primary Nav',
   ));
-    
+
+  //Custom post types
+  add_action('init', function(){
+    register_post_type('project', array(
+      'labels' => array(
+			  'name' => __('Project'),
+			  'singular_name' => __('Project'),
+			  'add_new' => __('Tilføj nyt'),
+			  'add_new_item' => __('Tilføj nyt Project')
+			),
+		  'public' => true,
+		  'has_archive' => true,
+		));
+  });
