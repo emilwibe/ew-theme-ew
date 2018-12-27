@@ -96,3 +96,17 @@ article .thumbnail{
   text-align:right;
   text-transform:uppercase;
 }
+.wp-block-embed.is-type-video.wp-embed-aspect-16-9 .wp-block-embed__wrapper{
+  height:0;
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  width:100%;
+}
+.wp-block-embed.is-type-video .wp-block-embed__wrapper iframe{
+  height:100%;
+  left:0;
+  position:absolute;
+  top:0;
+  width:100%;
+}
