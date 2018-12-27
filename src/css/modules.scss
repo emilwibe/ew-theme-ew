@@ -69,8 +69,17 @@ article .thumbnail{
   width:100%;
 }
 .posts.more{
-  color:#008080;
+  background-color:#333;
+  color:#fff;
   font-family:$font-serif;
+  padding:2rem;
+  text-decoration:none;
+  text-transform:uppercase;
+  transition:color 0.4s, background-color, 0.4s;
+}
+.posts.more:hover{
+  background-color:#ccc;
+  color:#333;
 }
 .sticky{
   color:#00f;
