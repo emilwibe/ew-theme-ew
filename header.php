@@ -7,7 +7,7 @@
   <?php wp_head(); ?>
 
   </head>
-  <body>
+  <body <?php body_class(); ?>>
     <header class="header primary">
       <div class="wrapper lg2">
         <a href="/" class="logo">EmilWibe <span>WebDesign</span></a>
