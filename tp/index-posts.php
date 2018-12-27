@@ -3,7 +3,7 @@ $args = array(
     'post_type' => 'post',
     'orderby' => 'date',
     'order' => 'DESC',
-    'posts_per_page' => -1
+    'posts_per_page' => 4
 );
 $theQuery = new WP_Query($args);
 ?>
@@ -29,7 +29,7 @@ $theQuery = new WP_Query($args);
     <?php endwhile; ?>
     </div><!--/.row-->
 
-    <a href="<?php echo get_post_type_archive_link('post'); ?>">Flere -></a>
+    <a href="<?php echo get_post_type_archive_link('post'); ?>" class="posts more">Se ældre indlæg</a>
 </div><!--/.wrapper.lg2-->
     <?php wp_reset_postdata(); ?>
 <?php endif; ?>
