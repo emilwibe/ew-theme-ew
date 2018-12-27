@@ -55,6 +55,8 @@ article .thumbnail{
 main a{
   background-color:#333;
   color:#fff;
+  padding:0.6rem;
+  text-decoration:none;
 }
 .nav.primary > ul{
   display:flex;
@@ -63,16 +65,16 @@ main a{
   list-style-type:none;
 }
 .nav.primary li:nth-child(1) a{
-  background-color:#000;
+  background-color:#2d617d;
 }
 .nav.primary li:nth-child(2) a{
-  background-color:#666;
+  background-color:#487a95;
 }
 .nav.primary li:nth-child(3) a{
-  background-color:#999;
+  background-color:#6f9bb3;
 }
 .nav.primary li:nth-child(4) a{
-  background-color:#bbb;
+  background-color:#a1c2d4;
 }
 .nav.primary a{
   color:#fff;
