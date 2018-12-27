@@ -52,12 +52,6 @@ article .thumbnail{
 .logo, .logo span{
   font-size:1.6rem;
 }
-main a{
-  background-color:#333;
-  color:#fff;
-  padding:0.6rem;
-  text-decoration:none;
-}
 .nav.primary > ul{
   display:flex;
 }
@@ -102,6 +96,12 @@ main a{
 .posts.more:hover{
   background-color:#ccc;
   color:#333;
+}
+.single main a{
+  background-color:#333;
+  color:#fff;
+  padding:0.6rem;
+  text-decoration:none;
 }
 .sticky{
   color:#00f;
