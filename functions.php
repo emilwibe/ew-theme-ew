@@ -15,6 +15,10 @@
     'primary' => 'Primary Nav',
   ));
 
+  add_action('widgets_init', function(){
+    register_sidebar()
+  });
+
   //Custom post types
   add_action('init', function(){
     register_post_type('project', array(
