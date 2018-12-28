@@ -11,7 +11,9 @@
 
     <div class="wrapper lg2 row lg-col-25-75 md-col-33-66 sm-col-100">
         <div>
-            <div></div>
+            <div>
+                <?php get_sidebar(); ?>
+            </div>
         </div>
         <div>
             <div>
