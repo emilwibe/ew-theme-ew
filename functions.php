@@ -16,7 +16,14 @@
   ));
 
   add_action('widgets_init', function(){
-    register_sidebar()
+    register_sidebar(array(
+      'name' => 'Project Widgets',
+      'id' => 'project_widgets',
+      'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+      'after_widget' => '</li>',
+      'before_title' => '<h3 class="widget-title">',
+      'after_title' => '</h3>'
+    ));
   });
 
   //Custom post types
