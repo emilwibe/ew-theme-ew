@@ -36,7 +36,7 @@
 			  'add_new_item' => __('Tilføj nyt Project')
 			),
 		  'public' => true,
-      'has_archive' => true,
+      'has_archive' => false,
       'show_in_rest' => true,
       'supports' => array('title', 'editor', 'thumbnail', 'revisions'),
 		));
