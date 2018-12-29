@@ -9,7 +9,7 @@
 
     <?php if(is_front_page()) : ?>
 
-    <h2 class="thumbnail title"><?php the_field('index_catchphrase'); ?></h2>
+    <h2 class="thumbnail title"><?php echo get_bloginfo('description'); ?></h2>
 
     <?php else : ?>
 
