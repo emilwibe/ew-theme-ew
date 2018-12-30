@@ -15,6 +15,8 @@
     <div>
         <div>
             <h3><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a></h2>
+
+            <?php echo get_the_excerpt(); ?>
         </div>
     </div>
     <div>
