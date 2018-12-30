@@ -105,6 +105,13 @@ h3.index.project a{
 .portfolio.archive article{
   position:relative;
 }
+.portfolio.archive article h2{
+  color:#fff;
+  text-align:center;
+}
+.portfolio.archive article .wp-post-image{
+  display:block;
+}
 .posts.more{
   background-color:#333;
   color:#fff;
