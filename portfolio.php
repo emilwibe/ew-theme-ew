@@ -10,6 +10,8 @@
             <?php the_content(); ?>
         </div><!--/.wrapper-->
 
+        <?php get_template_part('tp/portfolio', 'featured'); ?>
+
         <?php endwhile; ?>
     <?php endif; ?>
 
