@@ -20,7 +20,7 @@
     </div>
     <div>
         <div>
-        
+            <?php echo wp_get_attachment_image(); ?>
         </div>
     </div>
 </div><!--/.row-->
