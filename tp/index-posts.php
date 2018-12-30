@@ -11,7 +11,7 @@ $theQuery = new WP_Query($args);
 
     
     <h2 class="index posts">Seneste posts</h2>
-    <div class="row lg-col-25 md-col-33 sm-col-100">
+    <div class="row lg-col-33 md-col-50 sm-col-100">
     <?php while($theQuery->have_posts()) : $theQuery->the_post(); ?>
 
         <div>
