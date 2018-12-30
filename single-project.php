@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php if(have_posts()) : ?>
 <style>
-    a, .single.aside a{
+    a, .single.aside a, .single main a{
         color:<?php the_field('project_color'); ?>;
     }
 </style>
