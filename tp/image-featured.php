@@ -1,6 +1,6 @@
 <?php if(has_post_thumbnail()) : ?>
 
-  <div class="hero wrapper lg2" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
+  <div class="hero wrapper fw" style="background-image:url(<?php the_post_thumbnail_url(); ?>)">
       <div class="overlay">
 
       </div><!--/.overlay-->
