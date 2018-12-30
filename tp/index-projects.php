@@ -11,7 +11,7 @@
 
 <h2 class="index posts">Udvalgt Projekt</h2>
 
-<?php echo the_post_thumbnail(); ?>
+<a href="<?php echo get_the_permalink(); ?>"><?php echo the_post_thumbnail(); ?></a>
 
 <h3 class="index project"><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
