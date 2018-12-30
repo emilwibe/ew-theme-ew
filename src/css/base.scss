@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5, h6{
   font-family:$font-sans;
 }
 img{
+  height:auto !important;
   max-width:100%;
 }
 div, span, applet, object, iframe, p, blockquote, pre, abbr, acronym, address, big, cite, code,
