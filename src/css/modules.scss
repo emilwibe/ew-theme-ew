@@ -24,6 +24,19 @@ article .thumbnail{
   max-width:200px;
 
 }
+.footer.primary{
+  background-color:#333;
+}
+.footer.primary *{
+  color:#fff;
+}
+.footer.primary ul{
+  display:flex;
+  justify-content:center;
+}
+.footer.primary li{
+  list-style-type:none;
+}
 h3.index.project a{
   color:#333;
   text-decoration:none;

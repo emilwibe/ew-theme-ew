@@ -4,6 +4,9 @@
     a, .single.aside a, .single main a{
         color:<?php the_field('project_color'); ?>;
     }
+    .footer.primary{
+        background-color:<?php the_field('project_color'); ?>;
+    }
 </style>
     <?php while(have_posts()) : the_post(); ?>
 
