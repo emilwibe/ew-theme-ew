@@ -1,5 +1,5 @@
 <?php if(have_rows('project_featured_portfolio')): ?>
-  <div class="row all-gutter-zero lg-col-33 md-col-33 portfolio-archive">
+  <div class="row all-gutter-zero lg-col-33 md-col-33 portfolio archive">
     <?php while (have_rows('project_featured_portfolio')) : the_row(); ?>
 
 <?php
@@ -18,6 +18,7 @@ if($post_object) :
             <h2><?php the_title(); ?></h2>
             <p><?php the_field('client_project'); ?></p>
           </div><!--/.overlay-->
+
           <?php the_post_thumbnail(); ?>
         </a>
       </div>
