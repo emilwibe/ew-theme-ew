@@ -26,6 +26,7 @@ article .thumbnail{
 }
 .footer.primary{
   background-color:#333;
+  padding:2rem;
 }
 .footer.primary *{
   color:#fff;
@@ -33,9 +34,12 @@ article .thumbnail{
 .footer.primary ul{
   display:flex;
   justify-content:center;
+  margin:0;
 }
 .footer.primary li{
+  font-size:1.6rem;
   list-style-type:none;
+  padding:0 1rem;
 }
 h3.index.project a{
   color:#333;
