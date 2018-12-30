@@ -11,8 +11,9 @@
 
 <h2 class="index posts">Udvalgt Projekt</h2>
 
-<h3><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a></h2>
 <?php echo the_post_thumbnail(); ?>
+
+<h3 class="index project"><a href="<?php echo get_the_permalink(); ?>"><?php the_title(); ?></a></h2>
 
 <?php wp_reset_postdata(); ?>
 <?php endif; ?>
