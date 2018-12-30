@@ -6,12 +6,12 @@
 
     <div>
       <div>
-        <?php get_template_part('tp/index', 'projects'); ?>
+      <?php get_template_part('tp/index', 'posts'); ?>
       </div>
     </div>
     <div>
       <div>
-      <?php get_template_part('tp/index', 'posts'); ?>
+      <?php get_template_part('tp/index', 'projects'); ?>
       </div>
     </div>
 
