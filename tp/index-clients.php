@@ -1,7 +1,6 @@
 <?php if(have_rows('index_clients')) : ?>
 
     <div class="wrapper sm">
-        <h2>Jeg har lavet projekter med</h2>
         <ul class="clients">
     <?php while(have_rows('index_clients')) : the_row() ?>
     <?php
