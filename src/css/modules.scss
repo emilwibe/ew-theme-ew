@@ -31,13 +31,12 @@ article .thumbnail{
   padding:0;
 }
 .clients img{
-  height: auto !important;
-  width: auto !important;
+  height:5rem;
+  max-width:none !important;
 }
 .clients li{
   list-style-type:none;
   margin:2rem;
-  max-width:14rem;
 }
 .footer.primary{
   background-color:#333;
