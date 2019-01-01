@@ -17,20 +17,9 @@
 
   <?php get_template_part('tp/index', 'clients'); ?>
 
-  <div class="wrapper lg2 row lg-col-75-25 md-col-66-33 sm-col-100">
-
-    <div>
-      <div>
+  <div class="wrapper lg2">
       <?php get_template_part('tp/index', 'posts'); ?>
-      </div>
-    </div>
-    <div>
-      <div>
-      <?php get_template_part('tp/index', 'projects'); ?>
-      </div>
-    </div>
-
-</div><!--/.row-->
+  </div><!--/.wrapper-->
 
 </main>
 <?php get_footer(); ?>
