@@ -15,6 +15,8 @@
   </div><!--/.wrapper.sm-->
 <?php endif; ?>
 
+  <?php get_template_part('tp/index', 'clients'); ?>
+
   <div class="wrapper lg2 row lg-col-75-25 md-col-66-33 sm-col-100">
 
     <div>
