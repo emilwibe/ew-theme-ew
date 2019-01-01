@@ -24,6 +24,13 @@ article .thumbnail{
   max-width:200px;
 
 }
+.clients ul{
+  display:flex;
+  flex-wrap:wrap;
+}
+.clients li{
+  max-width:14rem;
+}
 .footer.primary{
   background-color:#333;
   padding:2rem;
