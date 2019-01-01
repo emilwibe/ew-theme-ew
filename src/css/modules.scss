@@ -120,8 +120,16 @@ h3.index.project a{
 .portfolio.archive article{
   position:relative;
 }
+.portfolio.archive article .overlay{
+  opacity:0;
+  transition:opacity 0.4s;
+}
+.portfolio.archive article .overlay:hover{
+  opacity:1;
+}
 .portfolio.archive article h2{
   color:#fff;
+  margin:auto;
   text-align:center;
 }
 .portfolio.archive article .wp-post-image{
