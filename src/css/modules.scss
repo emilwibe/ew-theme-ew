@@ -24,11 +24,13 @@ article .thumbnail{
   max-width:200px;
 
 }
-.clients ul{
+.clients{
   display:flex;
   flex-wrap:wrap;
+  padding:0;
 }
 .clients li{
+  list-style-type:none;
   max-width:14rem;
 }
 .footer.primary{
