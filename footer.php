@@ -14,8 +14,13 @@
     <?php wp_footer(); ?>
 
     <?php if(is_single() && get_post_type() == 'project') : ?>
+    
 
     <script>
+      var projectParticleColor = "#333333";
+      <?php if(get_field('project_color')) : ?>
+      projectParticleColor = <?php the_field('project_color'); ?>;
+      <?php endif; ?>
         particlesJS('particles-js', {
   "particles": {
     "number": {
