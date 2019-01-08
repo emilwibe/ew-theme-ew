@@ -5,7 +5,7 @@
     </ul>
 </footer>
 
-    <?php if(is_page_template('single-project.php')) : ?>
+    <?php if(is_single() && get_post_type() == 'project') : ?>
 
     <div id="particles-js"></div>
     
@@ -13,7 +13,7 @@
 
     <?php wp_footer(); ?>
 
-    <?php if(is_page_template('single-project.php')) : ?>
+    <?php if(is_single() && get_post_type() == 'project') : ?>
 
     <script>
         particlesJS.load('particles-js', {
