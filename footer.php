@@ -31,7 +31,7 @@
       }
     },
     "color": {
-      "value": "#333333"
+      "value": projectParticleColor
     },
     "shape": {
       "type": "circle",
