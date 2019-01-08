@@ -2,6 +2,7 @@ const
   gulp = require("gulp"),
   sass = require("gulp-sass"),
   cleanCSS = require("gulp-clean-css"),
+  concat = require("gulp-concat"),
   concatCSS = require("gulp-concat-css"),
   autoprefixer = require("gulp-autoprefixer"),
   cssimport = require("gulp-cssimport"),
@@ -14,6 +15,12 @@ const
       "./src/css/modules.scss",
       "./src/css/state.scss",
       "./src/css/theme.scss"
+    ],
+    jsHeader: [
+
+    ],
+    jsFooter: [
+      "./src/js/particles.js"
     ],
     grid: [
       "./src/css/grid/_grid-core.css"
@@ -32,6 +39,12 @@ gulp.task('css', function(){
     }))
     .pipe(cleanCSS({compatibility: "*"}))
     .pipe(gulp.dest("./dist/css"))
+});
+
+gulp.task("jsF", function(){
+  return gulp.src(paths.jsFooter)
+    .pipe(concat("scripts-footer.js"))
+    .pipe(gulp.dest("./dist/js"))
 });
 
 gulp.task("grid", function(){
