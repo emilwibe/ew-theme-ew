@@ -7,7 +7,7 @@
 
     <?php if(is_single() && get_post_type() == 'project') : ?>
 
-    <div id="particles-js"></div>
+    <div id="particles-js" class="particles-js"></div>
     
     <?php endif; ?>
 
