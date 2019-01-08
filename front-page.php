@@ -17,7 +17,7 @@
 
   <?php get_template_part('tp/index', 'clients'); ?>
 
-  <div class="wrapper lg2">
+  <div class="wrapper xl">
       <?php get_template_part('tp/index', 'posts'); ?>
   </div><!--/.wrapper-->
 

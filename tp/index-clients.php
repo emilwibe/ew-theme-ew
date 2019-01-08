@@ -1,6 +1,6 @@
 <?php if(have_rows('index_clients')) : ?>
 
-    <div class="wrapper sm">
+    <div class="wrapper s">
         <ul class="clients">
     <?php while(have_rows('index_clients')) : the_row() ?>
     <?php

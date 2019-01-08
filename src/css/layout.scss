@@ -5,15 +5,18 @@
 .wrapper.fw{
     width:100%;
 }
-.wrapper.lg2{
+.wrapper.xl{
     max-width:1400px;
 }
-.wrapper.lg{
+.wrapper.l{
   max-width:1140px;
 }
 .wrapper.md{
     max-width:960px;
 }
-.wrapper.sm{
+.wrapper.s{
     max-width:768px;
+}
+.wrapper.xs{
+    max-with:600px;
 }

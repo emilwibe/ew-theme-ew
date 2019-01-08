@@ -9,7 +9,7 @@
   </head>
   <body <?php body_class(); ?>>
     <header class="header primary">
-      <div class="wrapper lg2">
+      <div class="wrapper xl">
         <a href="/" class="logo">EmilWibe <span>WebDesign</span></a>
 
         <?php get_template_part('tp/nav', 'primary'); ?>
