@@ -76,6 +76,13 @@ h3.index.project a{
   height:calc(100vh - 200px);
   position:relative;
 }
+.hero .overlay{
+  background-color:rgba(0, 0, 0, 0.08);
+  transition:background-color 0.4s;
+}
+.hero .overlay:hover{
+  background-color:rgba(0, 0, 0, 0);
+}
 .hero.preload{
   display:none;
 }
@@ -114,7 +121,7 @@ h3.index.project a{
   text-transform:uppercase;
 }
 .overlay{
-  background-color:rgba(0, 0, 0, 0.1);
+  background-color:rgba(0, 0, 0, 0.08);
   height:100%;
   left:0;
   position:absolute;
