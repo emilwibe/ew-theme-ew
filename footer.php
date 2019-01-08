@@ -16,7 +16,7 @@
     <?php if(is_single() && get_post_type() == 'project') : ?>
 
     <script>
-        particlesJS.load('particles-js', {
+        particlesJS('particles-js', {
   "particles": {
     "number": {
       "value": 80,
