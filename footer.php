@@ -19,7 +19,7 @@
     <script>
       var projectParticleColor = "#333333";
       <?php if(get_field('project_color')) : ?>
-      projectParticleColor = <?php the_field('project_color'); ?>;
+      projectParticleColor = "<?php the_field('project_color'); ?>";
       <?php endif; ?>
         particlesJS('particles-js', {
   "particles": {
