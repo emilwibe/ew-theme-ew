@@ -79,6 +79,11 @@ h3.index.project a{
 .hero.preload{
   display:none;
 }
+.home .hero{
+  margin-bottom:-100px;
+  top:-100px;
+  z-index:-5;
+}
 .index.posts{
   border-bottom:1px solid #333;
   font-size:2.4rem;
