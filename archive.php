@@ -1,3 +1,4 @@
+<?php /* Template Name: Blog Page */ ?>
 <?php get_header(); ?>
 <?php if(have_posts()) : ?>
     <?php while(have_posts()) : the_post(); ?>
@@ -10,7 +11,7 @@
         </div>
         <div>
             <div>
-                <main><?php the_content(); ?></main>
+                <main><?php the_excerpt(); ?></main>
             </div>
         </div>
     </div><!--/.row-->
