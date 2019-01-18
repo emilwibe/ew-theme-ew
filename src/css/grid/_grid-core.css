@@ -1,5 +1,7 @@
 @import url('_row.css');
 
+@import url('grid-components/order.css');
+
 @import url('grid-components/sm-100.css');
 @import url('grid-components/sm-50.css');
 @import url('grid-components/sm-33.css');
