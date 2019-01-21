@@ -20,6 +20,7 @@ const
 
     ],
     jsFooter: [
+      "./src/js/scripts.js",
       "./src/js/particles.js"
     ],
     grid: [
