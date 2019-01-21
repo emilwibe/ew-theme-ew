@@ -8,12 +8,13 @@
 
   </head>
   <body <?php body_class(); ?>>
-  <button id="nav-toggle" class="nav toggle">Menu</button>
     <header class="header primary">
       <div class="wrapper xl">
         <a href="/" class="logo">EmilWibe <span>WebDesign</span></a>
 
         <?php get_template_part('tp/nav', 'primary'); ?>
+
+        <button id="nav-toggle" class="nav toggle">Menu</button>
 
       </div><!--/.wrapper.lg-->
     </header><!--/.header.primary-->
