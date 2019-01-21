@@ -77,6 +77,16 @@ h3.index.project a{
   margin-bottom:2rem;
   position:relative;
 }
+@media screen and (max-width:641px){
+  .hero{
+    height:calc(72vh - 200px);
+  }
+}
+@media screen and (max-width:641px){
+  .hero{
+    height:calc(60vh - 200px);
+  }
+}
 .hero .overlay{
   background-color:rgba(0, 0, 0, 0.08);
   transition:background-color 0.4s;
