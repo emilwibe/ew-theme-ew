@@ -219,6 +219,11 @@ h3.index.project a{
   text-align:right;
   text-transform:uppercase;
 }
+@media screen and (max-width:641px){
+  .thumbnail.title{
+    font-size:1.8rem;
+  }
+}
 .wp-block-embed.is-type-video.wp-embed-aspect-16-9 .wp-block-embed__wrapper{
   height:0;
   overflow:hidden;
