@@ -149,6 +149,8 @@ h3.index.project a{
   .nav.toggle{
     background-color:transparent;
     border:none;
+    position:relative;
+    z-index:1000;
   }
 }
 @media screen and (min-width:642px){
