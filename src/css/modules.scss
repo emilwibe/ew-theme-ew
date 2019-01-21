@@ -221,7 +221,9 @@ h3.index.project a{
 }
 @media screen and (max-width:641px){
   .thumbnail.title{
+    bottom:1rem;
     font-size:1.8rem;
+    right:1rem;
   }
 }
 .wp-block-embed.is-type-video.wp-embed-aspect-16-9 .wp-block-embed__wrapper{
