@@ -139,12 +139,16 @@ h3.index.project a{
     left:0;
     position:fixed;
     top:0;
-    transform:translate(80%, 0);
+    transform:translate(100%, 0);
     width:100%;
+    z-index:100;
   }
   .nav.primary ul{
     flex-direction:column;
     margin:auto;
+  }
+  .nav.toggle{
+
   }
 }
 @media screen and (min-width:642px){
