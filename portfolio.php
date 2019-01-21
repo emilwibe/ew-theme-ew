@@ -6,7 +6,7 @@
 
             <?php get_template_part('tp/image', 'featured'); ?>
 
-        <div class="wrapper sm">
+        <div class="wrapper s">
             <?php the_content(); ?>
         </div><!--/.wrapper-->
 

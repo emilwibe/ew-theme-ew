@@ -8,6 +8,7 @@
 
   </head>
   <body <?php body_class(); ?>>
+  <div class="ewdummy"></div>
     <header class="header primary">
       <div class="wrapper xl">
         <a href="/" class="logo">EmilWibe <span>WebDesign</span></a>
