@@ -8,7 +8,7 @@
 
   </head>
   <body <?php body_class(); ?>>
-  <div class="ewdummy"></div>
+  <button id="nav-toggle" class="nav toggle">Menu</button>
     <header class="header primary">
       <div class="wrapper xl">
         <a href="/" class="logo">EmilWibe <span>WebDesign</span></a>
