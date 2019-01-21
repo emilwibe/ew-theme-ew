@@ -131,6 +131,11 @@ h3.index.project a{
   padding:1rem;
   text-transform:uppercase;
 }
+@media screen and (max-width:641px){
+  .nav.primary ul{
+    flex-direction:column;
+  }
+}
 .overlay{
   background-color:rgba(0, 0, 0, 0.08);
   height:100%;
