@@ -132,17 +132,19 @@ h3.index.project a{
   text-transform:uppercase;
 }
 @media screen and (max-width:641px){
-  .nav.primary ul{
-    flex-direction:column;
-  }
   .nav.primary{
     background-color:rgba(255, 255, 255, 1);
+    display:flex;
     height:100vh;
     left:0;
     position:fixed;
     top:0;
     transform:translate(80%, 0);
     width:100%;
+  }
+  .nav.primary ul{
+    flex-direction:column;
+    margin:auto;
   }
 }
 .overlay{
