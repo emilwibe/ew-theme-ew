@@ -71,9 +71,14 @@ img{
   height:auto !important;
   max-width:100%;
 }
+blockquote cite{
+  display:block;
+  text-align:center;
+}
 blockquote p{
   font-size:4rem;
   font-weight:bold;
+  margin-bottom:0;
   text-align:center;
 }
 @media screen and (max-width:641px){
