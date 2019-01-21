@@ -135,6 +135,15 @@ h3.index.project a{
   .nav.primary ul{
     flex-direction:column;
   }
+  .nav.primary{
+    background-color:rgba(255, 255, 255, 1);
+    height:100vh;
+    left:0;
+    position:fixed;
+    top:0;
+    transform:translate(80%, 0);
+    width:100%;
+  }
 }
 .overlay{
   background-color:rgba(0, 0, 0, 0.08);
