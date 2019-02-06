@@ -149,8 +149,12 @@ h3.index.project a{
   .nav.toggle{
     background-color:transparent;
     background-image: url('../../assets/menu-hidden.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     border:none;
+    height:6rem;
     position:relative;
+    width:6rem;
     z-index:1000;
   }
 }
