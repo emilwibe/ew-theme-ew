@@ -9,6 +9,7 @@ $theQuery = new WP_Query($args);
 ?>
 <?php if($theQuery->have_posts()) : ?>
 
+    <div class="wrapper s">
     
     <h2 class="index posts">Seneste posts</h2>
     <div class="row lg-col-33 md-col-50 sm-col-100">
@@ -27,6 +28,8 @@ $theQuery = new WP_Query($args);
  
     <?php endwhile; ?>
     </div><!--/.row-->
+
+    </div><!--/.wrapper.s-->
 
     <a href="<?php echo get_post_type_archive_link('post'); ?>" class="posts more">Se ældre indlæg</a>
     <?php wp_reset_postdata(); ?>
