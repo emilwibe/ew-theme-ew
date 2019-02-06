@@ -9,7 +9,7 @@ $theQuery = new WP_Query($args);
 ?>
 <?php if($theQuery->have_posts()) : ?>
 
-    <div class="wrapper s">
+    <div class="wrapper xs">
     
     <h2 class="index posts">Seneste posts</h2>
     
