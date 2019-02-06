@@ -17,7 +17,10 @@ $theQuery = new WP_Query($args);
 
         <div>
             <div>
-            <article>
+                <div class="row lg-col-50 md-col-50 sm-col100">
+                    <div>
+                        <div>
+                        <article>
                 <a href="<?php echo get_the_permalink(); ?>">
                 <?php if(has_post_thumbnail()) : ?>
 
@@ -25,9 +28,18 @@ $theQuery = new WP_Query($args);
 
                 <?php endif; ?>
                 
-                    <h3><?php the_title(); ?></h3>
+                    
                 </a>
                 </article>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                        <h3><?php the_title(); ?></h3>
+                        </div>
+                    </div>
+                </div>
+            
             </div>
         </div>
  
