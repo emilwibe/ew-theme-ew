@@ -4,6 +4,7 @@
     ;
 
     navToggle.addEventListener("click", function(e){
+        navToggle.classList.toggle("is-active");
         navPrimary.classList.toggle("is-hidden");
     }, false);
 })();
