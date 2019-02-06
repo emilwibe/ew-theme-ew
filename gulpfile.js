@@ -7,6 +7,7 @@ const
   autoprefixer = require("gulp-autoprefixer"),
   cssimport = require("gulp-cssimport"),
   rename = require("gulp-rename"),
+  git = require("gulp-git"),
   paths = {
     scss: [
       "./src/css/base.scss",
@@ -25,6 +26,10 @@ const
     ],
     grid: [
       "./src/css/grid/_grid-core.css"
+    ],
+    git: [
+      "./",
+      "!./node_modules"
     ]
   }
 ;
@@ -54,3 +59,23 @@ gulp.task("grid", function(){
     .pipe(rename("grid.scss"))
     .pipe(gulp.dest("./src/css"))
 });
+
+// git
+gulp.task("git-add", function(){
+  return gulp.src(paths.git)
+    .pipe(git.add())
+});
+gulp.task('git-commit', function(){
+  return gulp.src(paths.git)
+    .pipe(git.commit('s'));
+});
+gulp.task('git-push', function(done){
+  git.push('origin', 'master', function (err) {
+    if (err) throw err;
+  });
+  done();
+});
+
+gulp.task("git-all", gulp.series("git-add", "git-commit", "git-push"));
+
+gulp.task("default", gulp.series("grid", "css", "jsF", "git-all"));
