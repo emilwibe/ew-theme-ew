@@ -148,7 +148,7 @@ h3.index.project a{
     margin:auto;
   }
   .nav.toggle{
-    animation: beacon 1000ms ease-out 1000ms infinite;
+    animation: beacon 1000ms ease-out 5000ms infinite;
     background-color:#fff;
     background-image: url('../../assets/menu-hidden.svg');
     background-repeat: no-repeat;
