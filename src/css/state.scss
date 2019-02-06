@@ -2,4 +2,7 @@
     .nav.primary.is-hidden{
         transform:translate(100%, 0);
     }
+    .nav.toggle.is-active{
+        transform:rotate(90deg);
+    }
 }
