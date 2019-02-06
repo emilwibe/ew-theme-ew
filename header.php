@@ -8,9 +8,12 @@
 
   </head>
   <body <?php body_class(); ?>>
+  <script>
+    document.body.classList.add("enhanced");
+  </script>
     <header class="header primary">
       <div class="wrapper xl">
-        <a href="/" class="logo">EmilWibe <span>WebDesign</span></a>
+        <a href="<?php echo get_site_url(); ?>" class="logo">EmilWibe <span>WebDesign</span></a>
 
         <?php get_template_part('tp/nav', 'primary'); ?>
 
