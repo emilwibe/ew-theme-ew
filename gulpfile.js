@@ -13,6 +13,7 @@ const
       "./src/css/base.scss",
       "./src/css/layout.scss",
       "./src/css/grid.scss",
+      "./src/css/animations.scss",
       "./src/css/modules.scss",
       "./src/css/state.scss",
       "./src/css/theme.scss"

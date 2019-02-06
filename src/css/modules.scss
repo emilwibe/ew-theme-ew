@@ -148,13 +148,17 @@ h3.index.project a{
     margin:auto;
   }
   .nav.toggle{
-    background-color:transparent;
+    animation: beacon 1000ms ease-out 1000ms infinite;
+    background-color:#fff;
     background-image: url('../../assets/menu-hidden.svg');
     background-repeat: no-repeat;
     background-size: 100%;
     border:none;
+    border-radius:50%;
+    bottom:2rem;
     height:6rem;
-    position:relative;
+    position:fixed;
+    right:2rem;
     transition: transform 1.2s;
     width:6rem;
     z-index:1000;
