@@ -14,6 +14,8 @@
         <div>
             <div>
                 <main><?php the_content(); ?></main>
+
+                
             </div>
         </div>
     </div><!--/.row-->
