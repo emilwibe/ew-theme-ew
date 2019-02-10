@@ -15,7 +15,9 @@
             <div>
                 <main><?php the_content(); ?></main>
 
-                
+                <?php get_template_part('tp/blog', 'posts'); ?>
+
+
             </div>
         </div>
     </div><!--/.row-->
