@@ -1,8 +1,7 @@
 (function(){
     var navPrimary = document.getElementById("nav-primary"),
         navToggle = document.getElementById("nav-toggle"),
-        hero = document.getElementById("hero"),
-        heroPreload = document.getElementById("hero-preload")
+        hero = document.getElementById("hero")
     ;
 
     navToggle.addEventListener("click", function(e){
@@ -12,7 +11,7 @@
         navPrimary.classList.toggle("is-hidden");
     }, false);
 
-    heroPreload.addEventListener("load", function(){
+    document.addEventListener("load", function(){
         hero.style.animationName = "fade-in";
         hero.style.animationPlayState = "running";
     }, false);
