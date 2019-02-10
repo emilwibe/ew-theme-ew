@@ -13,6 +13,7 @@
     }, false);
 
     heroPreload.addEventListener("load", function(){
+        hero.style.animationName = "fade-in";
         hero.style.animationPlayState = "running";
     }, false);
 })();
