@@ -3,7 +3,7 @@ $args = array(
     'post_type' => 'post',
     'orderby' => 'date',
     'order' => 'DESC',
-    'posts_per_page' => 2
+    'posts_per_page' => 3
 );
 $theQuery = new WP_Query($args);
 ?>
