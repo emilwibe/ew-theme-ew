@@ -11,7 +11,7 @@
         navPrimary.classList.toggle("is-hidden");
     }, false);
 
-    document.addEventListener("load", function(){
+    window.addEventListener("load", function(){
         hero.style.animationName = "fade-in";
         hero.style.animationPlayState = "running";
     }, false);
