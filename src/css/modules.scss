@@ -77,6 +77,11 @@ h3.index.project a{
   margin-bottom:2rem;
   position:relative;
 }
+.enhanced .hero{
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  opacity:0;
+}
 @media screen and (max-width:641px){
   .hero{
     height:calc(72vh - 200px);
@@ -218,19 +223,6 @@ h3.index.project a{
 }
 .portfolio.archive article .wp-post-image{
   display:block;
-}
-.posts.more{
-  background-color:#333;
-  color:#fff;
-  font-family:$font-sans;
-  padding:2rem;
-  text-decoration:none;
-  text-transform:uppercase;
-  transition:color 0.4s, background-color, 0.4s;
-}
-.posts.more:hover{
-  background-color:#ccc;
-  color:#333;
 }
 .single.aside *{
   color:#999;

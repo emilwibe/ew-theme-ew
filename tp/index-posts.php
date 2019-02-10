@@ -26,8 +26,7 @@ $theQuery = new WP_Query($args);
                     <?php the_post_thumbnail(); ?>
 
                 <?php endif; ?>
-                
-                    
+                                  
                 </a>
                 </article>
                         </div>
@@ -38,13 +37,8 @@ $theQuery = new WP_Query($args);
                         </div>
                     </div>
                 </div>
-            
- 
     <?php endwhile; ?>
-  
 
     </div><!--/.wrapper.s-->
-
-    <a href="<?php echo get_post_type_archive_link('post'); ?>" class="posts more">Se ældre indlæg</a>
     <?php wp_reset_postdata(); ?>
 <?php endif; ?>
