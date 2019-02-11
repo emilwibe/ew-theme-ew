@@ -34,7 +34,7 @@ $theQuery = new WP_Query($args);
                     <div class="blog archive heading">
                         <div>
                         <h3><?php the_title(); ?></h3>
-                        <time daatetime="<?php echo get_the_time("Y-m-d H:i"); ?>"><?php the_time(get_option('date_format')); ?></time>
+                        <time datetime="<?php echo get_the_time("Y-m-d H:i"); ?>"><?php the_time(get_option('date_format')); ?></time>
                         </div>
                     </div>
                 </div>

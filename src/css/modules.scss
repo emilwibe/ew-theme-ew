@@ -28,6 +28,15 @@ article .thumbnail{
   align-items: center;
   display:flex;
 }
+.blog.archive.heading h2, .blog.archive.heading h3{
+  font-size:2rem;
+  margin:0;
+}
+.blog.archive.heading time{
+  color:#666;
+  font-family: $font-sans;
+  font-size:1.6rem;
+}
 .clients{
   display:flex;
   flex-wrap:wrap;

@@ -31,7 +31,8 @@
                     </div>
                     <div class="blog archive heading">
                         <div>
-                        <h3><?php the_title(); ?></h3>
+                        <h2><?php the_title(); ?></h2>
+                        <time datetime="<?php echo get_the_time("Y-m-d H:i"); ?>"><?php the_time(get_option('date_format')); ?></time>
                         </div>
                     </div>
                 </div>
