@@ -17,19 +17,19 @@
     <div class="row lg-col-50 md-col-50 sm-col100">
                     <div>
                         <div>
-                        <article>
-                <a href="<?php echo get_the_permalink(); ?>">
+                            <article>
+                                <a href="<?php echo get_the_permalink(); ?>">
                 <?php if(has_post_thumbnail()) : ?>
 
                     <?php the_post_thumbnail(); ?>
 
                 <?php endif; ?>
                                   
-                </a>
-                </article>
+                                </a>
+                            </article>
                         </div>
                     </div>
-                    <div>
+                    <div class="blog archive heading">
                         <div>
                         <h3><?php the_title(); ?></h3>
                         </div>

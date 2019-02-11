@@ -31,7 +31,7 @@ $theQuery = new WP_Query($args);
                 </article>
                         </div>
                     </div>
-                    <div>
+                    <div class="blog archive heading">
                         <div>
                         <h3><?php the_title(); ?></h3>
                         </div>
