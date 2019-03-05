@@ -17,7 +17,7 @@
 
         <?php get_template_part('tp/nav', 'primary'); ?>
 
-        <button id="nav-toggle" class="nav toggle"></button>
+        <button id="nav-toggle" class="nav toggle">Menu</button>
 
       </div><!--/.wrapper.lg-->
     </header><!--/.header.primary-->
