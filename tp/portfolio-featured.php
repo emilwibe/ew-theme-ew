@@ -21,7 +21,7 @@ if($post_object) :
 
           <?php //the_post_thumbnail(); ?>
 
-          <img src="<?php the_field('project_image_small'); ?>" alt="" style="width:auto !important;height:160px !important;">
+          <img src="<?php the_field('project_image_small'); ?>" alt="<?php the_title(); ?> - Logo" class="portfolio thumbnail">
         </a>
       </div>
     </div>

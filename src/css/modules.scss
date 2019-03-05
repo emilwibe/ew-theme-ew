@@ -234,6 +234,12 @@ h3.index.project a{
 .portfolio.archive article .wp-post-image{
   display:block;
 }
+.portfolio.thumbnail{
+  display: block;
+  height:16rem !important;
+  margin:2rem auto;
+  width:auto !important;
+}
 .single.aside *{
   color:#999;
   font-family:$font-sans;
