@@ -19,7 +19,9 @@ if($post_object) :
             <p><?php the_field('client_project'); ?></p>
           </div><!--/.overlay-->
 
-          <?php the_post_thumbnail(); ?>
+          <?php //the_post_thumbnail(); ?>
+
+          <img src="<?php the_field('project_image_small'); ?>" alt="">
         </a>
       </div>
     </div>
