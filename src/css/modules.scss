@@ -214,7 +214,8 @@ h3.index.project a{
   background-color:rgba(0, 0, 0, 0.8);
   display:flex;
   opacity:0;
-  transition:opacity 0.4s;
+  transition:opacity 2s;
+  z-index:10;
 }
 .portfolio.archive article .overlay:hover{
   opacity:1;
