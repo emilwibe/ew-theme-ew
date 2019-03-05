@@ -106,7 +106,7 @@ h3.index.project a{
 }
 .hero .overlay{
   background-color:rgba(0, 0, 0, 0.08);
-  transition:background-color 0.4s;
+  transition:background-color 1s;
 }
 .hero .overlay:hover{
   background-color:rgba(0, 0, 0, 0);
@@ -224,11 +224,11 @@ h3.index.project a{
   margin:auto;
   text-align:center;
 }
-.portfolio.archive article .overlay img{
+.portfolio.archive article .featured{
   transform:scale(1);
   transition:transform 1s;
 }
-.portfolio.archive article .overlay:hover img{
+.portfolio.archive article:hover .featured{
   transform:scale(1.2);
 }
 .portfolio.archive article .wp-post-image{
