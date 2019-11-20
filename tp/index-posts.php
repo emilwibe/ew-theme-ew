@@ -23,7 +23,7 @@ $theQuery = new WP_Query($args);
                 <a href="<?php echo get_the_permalink(); ?>">
                 <?php if(has_post_thumbnail()) : ?>
 
-                    <?php the_post_thumbnail(); ?>
+                    <?php the_post_thumbnail('large'); ?>
 
                 <?php endif; ?>
                                   
